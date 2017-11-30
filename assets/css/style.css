@@ -1,0 +1,41 @@
+body {
+	background-image: url(https://i1.wp.com/codegena.com/wp-content/uploads/2015/10/Background-Pattern-5.png?ssl=1);
+	background-size: cover;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 200px;
+	width: auto;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
+.blackground{
+	background-color:#199fdb;
+    width: 600px;
+	height: 600px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
